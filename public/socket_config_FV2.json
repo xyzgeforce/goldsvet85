@@ -1,0 +1,13 @@
+{
+
+"port":"12053/fishv2",
+
+"host":"localhost",
+"prefix":"http://",
+
+"host_ws":"localhost",
+"prefix_ws":"ws://",
+
+"ssl":false
+
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="274.07465mm"
+   height="79.375mm"
+   viewBox="0 0 274.07465 79.375"
+   version="1.1"
+   id="svg45209"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="Keno_Logo_2019.svg">
+  <defs
+     id="defs45203" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="269.36491"
+     inkscape:cy="-572.85714"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata45206">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.563868,82.110118)">
+    <path
+       id="path259828"
+       d="m 37.764599,-78.359017 h 28.720544 l -6.138931,32.854206 24.569092,-32.854206 H 106.9511 L 80.560646,-43.782826 99.458008,-7.9740967 H 76.91496 L 59.9413,-42.06232 52.953975,-7.9755807 H 34.563868 l 12.113235,-61.6904423 -8.912504,-8.692994 m 71.882941,0 8.50611,8.893225 -11.60598,61.4902113 h 38.09878 l 2.93672,-14.8853263 h -20.31678 l 2.22775,-12.8222 h 20.82107 l 3.24078,-14.643563 h -20.92192 l 2.39091,-12.455855 h 20.25151 l 3.2037,-15.576492 h -48.83265 m 63.21072,-2.509562 -14.58275,72.8929983 h 18.3293 l 6.54088,-33.2769133 34.39228,37.3260333 14.84676,-74.4340393 h -28.57965 l 8.16349,9.398993 -4.15145,25.682971 -34.95886,-37.590043 m 84.7274,27.949286 c 7.26319,-9.296652 19.17027,-12.129551 26.59216,-6.330266 7.42487,5.80225 7.55836,18.04156 0.29367,27.338211 -7.26467,9.296652 -19.16878,12.129553 -26.59364,6.328783 -7.42487,-5.800767 -7.55539,-18.041556 -0.29219,-27.336728 z m -13.44515,-10.509904 c -14.5249,18.591824 -14.26238,43.071923 0.58587,54.6719733 14.84972,11.601538 38.6609,5.93574 53.18581,-12.6560843 14.52787,-18.593305 14.26386,-43.073405 -0.5829,-54.673457 -14.84973,-11.604501 -38.6609,-5.935738 -53.18878,12.657568"
+       inkscape:connector-curvature="0"
+       style="fill:#951b81;stroke-width:1.48319292" />
+  </g>
+</svg>

@@ -1,0 +1,608 @@
+.iPhone.MainWindow.MobileSafari {
+    -webkit-user-drag: none
+}
+
+.iPhone.MainWindow.Chrome body {
+    position: static
+}
+
+.iPhone.MainWindow.Chrome canvas {
+    position: fixed
+}
+
+.iPhone.MainWindow canvas {
+    top: 0;
+    left: 0
+}
+
+.iPhone.MainWindow.fullscreen-visible,
+.iPhone.MainWindow.fullscreen-visible body {
+    background: gray
+}
+
+.fullscreen-reserve {
+    height: 6969px
+}
+
+.fullscreen-root-hidden {
+    display: none
+}
+
+.fullscreen-root-visible {
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    right: 0;
+    bottom: -1000px;
+    z-index: 200;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (-webkit-min-device-pixel-ratio:2) and (orientation:portrait) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 529px;
+        min-height: 529px
+    }
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:568px) and (-webkit-min-device-pixel-ratio:2) and (orientation:landscape) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 321px;
+        min-height: 321px
+    }
+}
+
+@media only screen and (min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2) and (orientation:portrait) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 628px;
+        min-height: 628px
+    }
+}
+
+@media only screen and (min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2) and (orientation:landscape) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 375px;
+        min-height: 375px
+    }
+}
+
+@media only screen and (min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3) and (orientation:portrait) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 698px;
+        min-height: 698px
+    }
+}
+
+@media only screen and (min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3) and (orientation:landscape) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 414px;
+        min-height: 414px
+    }
+}
+
+@media only screen and (min-device-width:375px) and (max-device-width:812px) and (-webkit-min-device-pixel-ratio:3) and (orientation:portrait) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 773px;
+        min-height: 773px
+    }
+}
+
+@media only screen and (min-device-width:375px) and (max-device-width:812px) and (-webkit-min-device-pixel-ratio:3) and (orientation:landscape) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 375px;
+        min-height: 375px
+    }
+}
+
+@media only screen and (min-device-width:414px) and (max-device-width:896px) and (-webkit-min-device-pixel-ratio:3) and (orientation:portrait) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 857px;
+        min-height: 857px
+    }
+}
+
+@media only screen and (min-device-width:414px) and (max-device-width:896px) and (-webkit-min-device-pixel-ratio:3) and (orientation:landscape) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 414px;
+        min-height: 414px
+    }
+}
+
+@media only screen and (min-device-width:414px) and (max-device-width:896px) and (-webkit-min-device-pixel-ratio:2) and (orientation:portrait) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 833px;
+        min-height: 833px
+    }
+}
+
+@media only screen and (min-device-width:414px) and (max-device-width:896px) and (-webkit-min-device-pixel-ratio:2) and (orientation:landscape) {
+    .iPhone.MainWindow.MobileSafari {
+        max-height: 414px;
+        min-height: 414px
+    }
+}
+
+#RGSPortrait,
+#RGSLandscape,
+#RGSDesktop {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    z-index: 269;
+    width: 95% !important
+}
+
+.iPhone.MainWindow.MobileSafari #RGSLandscape,
+.iPhone.MainWindow.Chrome #RGSLandscape,
+.iPhone.MainWindow.Chrome #RGSPortrait {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+canvas.SwedishCanvas {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+@media only screen and (orientation:landscape) {
+    #RGSLandscape {
+        display: block !important
+    }
+    #RGSPortrait {
+        display: none !important
+    }
+}
+
+@media only screen and (orientation:portrait) {
+    #RGSLandscape {
+        display: none !important
+    }
+    #RGSPortrait {
+        display: block !important
+    }
+}
+
+@font-face {
+    font-family: 'FallbackFontForDynamicText';
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+    src: url('data:application/x-font-woff;base64,d09GRgABAAAAAA5MABAAAAAAIe+/vQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEZGVE0AAA4wAAAAHAAAABxb77+977+977+9R0RFRgAADhQAAAAcAAAAHgAnAApPUy8yAAAB77+9AAAAWAAAAGDvv71qan1jbWFwAAACSAAAAD8AAAFCAA8G77+9Y3Z0IAAABEAAAAAyAAAAMhrvv70I77+9ZnBnbQAAAu+/vQAAAT0AAALvv71u77+9R++/vWdhc3AAAA4EAAAAEAAAABAAEwAJZ2x5ZgAABO+/vQAAAFgAAABYPu+/ve+/ve+/vWhlYWQAAAFsAAAANgAAADbvv73vv73vv71oaGVhAAAB77+9AAAAHgAAACQK77+9AERobXR4AAACOAAAABAAAAAQBO+/vQBEbG9jYQAABHQAAAAKAAAACgBYAFhtYXhwAAAB77+9AAAAGwAAACACGwA4bmFtZQAABO+/vQAACQgAABooOnTvv73vv71wb3N0AAAK77+9AAAAIwAAADHvv73vv71377+9cHJlcAAAA++/vQAAAHgAAADvv73vv70Ba++/vQABAAAAAQAAPUXvv71OXw8877+9AB8IAAAAAADvv70HHu+/vQAAAADVl27vv70ARAAAAmQFVQAgAAgAAgAAAAAAAHjvv71jYGRg77+9YO+/vXvvv73vv73vv70p77+9AQjvv71SGBgZUAELAFAOAu+/vQAAeO+/vWNgZGBgYGHvv71gYGIAAQgpAmbogZgAA++/vQBWAHjvv71jYGbvv71gVmBgZmBjNWY577+977+977+977+9CkIz77+9YO+/ve+/vXjvv73vv73vv73vv73vv73vv73vv73vv73vv73vv73vv73vv73vv73vv73vv73vv719AO+/ve+/vRcDFO+/ve+/ve+/vTgDKQUGBe+/ve+/ve+/ve+/vRnvv7052Jk0FRgYJu+/ve+/vVgs77+9OO+/vXLvv70A77+9Jwzvv70CaABEAAAAAAAAAAACaAAAeO+/vWNgYGBm77+9YBkGRgYQ77+9Ae+/vRjvv718FgYFIO+/vQLvv70g77+977+977+977+9EO+/ve+/vWPvv71KBkY2Bhjvv73vv73vv70JSDAx77+9Akbvv73vv73vv70ZAABi77+9Bu+/vQB477+977+977+9PUvvv70wGMeTaz3vv73vv73Lqe+/vRDvv73vv73vv70b77+977+977+9U++/ve+/vSBd77+9dUgWX++/vQ7vv719B++/ve+/vUsGP0vvv73vv73vv70vJu+/vTRX77+977+9RW5wSe+/ve+/ve+/vcOPf34OIe+/vTsUFe+/vQPvv71377+977+977+977+977+977+977+9E0UoeHzvv710CAtK77+9Slrvv70E77+9SO+/vWDOoAoE77+9bBBnd++/vWtq77+977+9WRjvv73Rl++/vQpjf++/ve+/ve+/ve+/vStqUe+/vSo477+9Fe+/ve+/vSbvv71y77+977+9NXDClhN677+977+9QFh177+977+9JwDvv70L77+9dkRObTAr1K3vv73vv70kNu+/ve+/vTBGU++/vRTvv70277+9MO+/vWFr77+9SQrvv71rde+/vWXehe+/ve+/vTkUe2tKCQxAaGPvv71uNGPvv70x77+9GO+/ve+/ve+/vXDvv70w77+9Bu+/ve+/vXYn77+9U++/ve+/ve+/vT8l77+977+9du+/vRln77+9Q0tgRyIvVQpJWO+/vWTvv73vv71SJHtKJ33vv70HEG/vv70e77+977+90qNt77+9Hm/vv710Ou+/ve+/vQQyT1vvv73vv73vv71K77+9H0I377+9ZO+/vXDvv702XA8YPu+/vRnvv70BRz/JtAAAAHjvv71V77+977+9Du+/vUAMRe+/vSgMMAjvv70gagjvv73vv70gMe+/ve+/ve+/ve+/vX/vv71Ow4ZVe++/ve+/vdO+Ke+/vRfvv71IIO+/vR8ZCzM9J3Lvv73vv73Fkxvvv71RzqTvv71F77+9SO+/ve+/ve+/vUY1Uu+/vdSZ77+9Mu+/vTxXWu+/vTNi77+977+9be+/vQkjd21677+9Pe+/vSbvv71s77+9Djzvv73vv70L77+9Oe+/vTk/77+9IcWFP3bvv70S77+9AO+/vQDvv70BLAFFAXIB77+9AO+/vQDvv70BEAFiAe+/vQHvv70AAAAb77+9HgATBDkAFwYIABwG77+9AAQAKgBEBREAAAAAACwALAAsACwAAAACAEQAAAJkBVUAAwAHAC7vv70BAC8877+9BwQX77+9Mu+/vQYF77+9PO+/vQMCF++/vTIA77+9AwAvPO+/vQUEF++/vTLvv70HBhjvv70877+9AQIX77+9MjMRIRElIREhRAIg77+9JAHvv73vv71oBVXvv73vv71EBO+/vQAAeO+/ve+/vRhNbxzvv73vv73vv70kO1bvv70P77+977+9E09ODO+/ve+/vVo5a++/ve+/vUAQy5IdA++/vWtI77+9Lz1xZ++/vTvvv71m77+9Ae+/ve+/vXrvv71E77+9QO+/vQI977+9VO+/vQ/vv73vv73vv73vv71DT++/ve+/ve+/ve+/ve+/vQJ977+9MzsrS++/vV3Zh1YLzbzvv73vv73vv73vv70iGWPvv71a77+977+977+9MO+/vVvvv73vv73vv70i77+977+977+977+9Ke+/ve+/vdiD77+977+9I++/vcqe77+977+9RXjvv73vv73vv73vv70l77+977+977+9N++/vX8X77+977+9bHRDRO+/vQbvv73vv73vv73vv71G77+9Ju+/ve+/ve+/vUPvv70377+977+9bu+/vT3Cn++/ve+/vVcvI++/vQUb77+9YRHvv73vv71277+977+9ESjvv73vv73vv70EJu+/vSfvv70I77+977+977+977+9NO+/ve+/ve+/vWTvv71vEV5lP++/ve+/vQjvv70x77+9fhjvv71177+977+977+9f0fvv70677+977+977+9Fe+/vRsrf++/ve+/vUvvv71v77+9bO+/ve+/vRHvv73vv73ss43vv71G77+9c1Z977+977+9CH/vv73vv73vv71+77+977+9be+/ve+/ve+/vRvvv73vv71jZljvv73vv73vv70yxaYsZx7vv73vv71sBO+/vSHvv70B77+977+9SVbvv70JO++/ve+/vQJ+Eu+/ve+/vWnvv73vv73vv70CRhIYee+/vQ7vv73vv73vv70Re8ae77+9H++/vQk777+977+9A3gf77+977+9FTzvv71p77+9Ce+/vVDvv70BNAHKmu+/ve+/vQLvv70p77+977+977+9JVlG77+9Ne+/ve+/vRUO77+9RRwTMO+/ve+/ve+/vQRo77+9WTMm77+9LDwreBpYUxM+XDsjbnMY77+9aS3Cku+/vS3vv71477+977+9Ye+/ve+/ve+/vQNnBu+/vXxfHe+/vQDvv73vv703yoLvv719RXLvv700b2jvv70p77+9L++/vUpOXO+/vXHvv73vv70uYe+/ve+/vR7vv71q77+977+977+9QkI6Q++/ve+/vRLNgnYi77+9KUkrW++/ve+/ve+/vWPvv73vv71D77+977+9AO+/vQTOgw7vv73vv70W24Hvv719eE/vv70A1qTvv73vv70B77+9CO+/ve+/ve+/vT3vv73vv70A77+9EHPvv70977+9L++/vR0Q77+9Ce+/ve+/vTfvv73vv73vv73vv71WTXPvv73vv73vv73RsMef77+9enLvv73vv71C77+9fTVVXhQJf3R4yI/vv70977+977+977+9Hx0cHxzvv70677+9T++/vUnvv70c77+9GO+/vTnvv70L77+9Su+/vWTvv73vv73vv71477+9TAHvv73vv70ZL8WcRsaSW1lZ77+91anvv73vv71M77+977+91J7vv71c77+9Ve+/vUvvv71TA++/vQHvv73vv71c77+977+9C2Hvv73vv71v77+9K++/vWpR77+977+9Ou+/vScyzbUBeO+/ve+/ve+/vX3vv73vv71U77+9SO+/ve+/vQTvv71mYWcx77+9Uu+/vSbvv73vv71K77+9K++/vXzvv71M77+9ATlwUO+/ve+/ve+/ve+/ve+/vTUZZGkqB33vv73vv73vv70DMe+/vcis77+9UO+/ve+/vUDvv70n77+977+9J++/ve+/vRrvv70g77+977+977+9J++/ve+/ve+/vXg377+977+977+977+9WSfvv70477+977+9a2AE77+92Ivvv710ZXYeG++/ve+/ve+/ve+/ve+/vWtv77+9Hu+/ve+/ve+/vRTvv73fk++/vV3vv70lCSMYHe+/ve+/vQ9R77+9Re+/ve+/ve+/vVJ+77+9KO+/ve+/ve+/vXXvv71o77+9T++/ve+/vT7vv71c77+977+977+9dzN877+9Sjnvv70i77+977+977+977+9ZSnvv73vv70VTEnvv70w77+9B++/vXrvv73vv70177+9IkXvv70oJO+/ve+/ve+/vQp8ZdG677+977+9T++/ve+/ve+/ve+/ve+/vXnvv71B77+9b2/vv713elxp77+9KCAgCynvv73vv70wA21eYO+/vU9m77+977+977+9PO+/vXXvv73vv70CKe+/ve+/ve+/ve+/ve+/ve+/vX7vv73vv70C77+9KE1JNjttS++/vR5817QSS++/vRxK77+9JFzvv71Q77+977+9aO+/vQTvv70F77+977+977+9aAlz77+9WRPvv71jMcWCMiZ777+97IeV77+9d++/vc+u77+977+977+9clFB77+977+977+9du+/ve+/ve+/ve+/vVcke0k7F++/vX55WT8G77+977+977+9Fu+/vVDvv70EeO+/vVQ5Ly3vv70n77+9P++/ve+/ve+/ve+/vVjvv73vv71ELS0/77+9V++/ve+/ve+/vUcJf++/vUUK77+977+9Kgzvv73vv71JDhUvV2Pvv71ldkkRfe+/ve+/vQXvv71LVBY177+977+9SEPvv73vv73vv71ZSVsqR0Hvv71UNu+/vQ/vv71377+977+9C++/vSzvv70x77+977+977+9fUNt77+9Nu+/vS3vv73vv73vv73vv70X77+9Lu+/ve+/ve+/vRrvv73vv71Nf++/vT3vv713NcaGQHYI77+977+9LA7vv73vv709chnRul4FT0Xvv70f77+977+9G2HIoO+/ve+/vVNW77+9VO+/vRkJ77+9ChLvv73vv73vv70277+9W++/ve+/vXTvv73vv73vv71iGncnFO+/vRJGZ++/vTHvv73vv71ATe+/ve+/vR4c77+9VO+/ve+/vd6v77+9Pe+/vS5u77+977+977+9Hu+/vTrvv70Y77+9Bu+/ve+/vemyke+/vR9h77+977+9DjsnSWvvv70HMSzvv71YCEJKX++/ve+/vUnvv70h77+9CSYkfENJ77+977+977+9HO+/ve+/ve+/ve+/vVI977+977+9Te+/vUkK77+9Ihbvv70RFQ/vv73vv70z77+9RCbvv70OQ++/vWrvv70ifu+/vT16Ge+/vVtLaxcUF++/vSLvv73vv73vv71677+9Q++/vUsWOG/vv705WXFM77+9CiUICu+/vUHvv70i77+977+977+9WEjvv70Vyb18Mmh477+9VDJrU++/vTId77+977+9Le+/vXHvv70fQ++/vRvvv70c77+977+9TgQz77+977+977+9We+/ve+/vQovCsW377+977+9WzJ677+977+9eWvvv70g77+9ADll77+977+9Ue+/ve+/vXQy77+9UUfvv70K34Lvv73vv71I77+9Pe+/vdmY77+9FRXvv70m77+9DHlbQXQu77+925N9RUdT77+977+9XAAzWBMs77+9ae+/ve+/ve+/ve+/vUbvv71N77+9Qu+/vSDvv71x77+9TFjvv73vv70pGO+/veKOphTvv73Xk++/vSRlSCNu77+977+9dO+/ve+/vXXvv73vv70x77+9Ke+/vVvvv73JkQTLnDvvv73vv71277+977+9Te+/ve+/vRLvv73vv70zLu+/vRPvv70l77+977+977+977+9RWPvv71g77+977+977+9PRXPminZoinvv70u77+9dTjvv70R77+9Fi5DNmjvv71X77+9aQsK77+977+9au+/vU/vv71p77+9ezw1CWkb77+9ZTzvv73vv73vv73vv70xd++/ve+/ve+/vX/vv73vv73vv71mUe+/vVHvv71bPe+/vXgCbzjvv71YZ3Pvv73VnO+/vT1pOGTvv73vv71lbWTvv73Vm++/vXUEfe+/ve+/vXnvv71nJVkuWO+/vS1JLu+/vSEM77+9JCHvv708ISw6Zu+/vWXvv70uZ++/ve+/vTrvv71577+977+977+9f++/vVPvv73Wixrvv70s77+977+9NO+/ve+/vX3vv70eZyTvv70iLe+/vSMXIe+/vQZ5Qu+/vUJJJu+/ve+/ve+/vW4Le++/vVRBVO+/vUkj77+977+9GO+/ve+/ve+/vQbvv71e77+9UO+/vScu77+9Qjfvv70177+9NBrvv70x77+977+9be+/ve+/vSnvv73vv70w77+9EVrvv73vv73vv71h77+9M++/ve+/vQYP77+977+977+9Hu+/vRJKQ0/vv73vv71+Xu+/ve+/vRVVHj/vv71E77+977+9Z3QjADvvv70a77+9Szjvv71L77+977+9Pe+/vWdSwplk77+9Ne+/ve+/ve+/ve+/ve+/ve+/ve+/vXY5LO+/vU3vv71g77+9YUs1Nu+/vRQvOSzvv73vv73vv70q77+9eVXvv70L77+9AO+/ve+/ve+/vQt177+9E++/vWNbCO+/vRnvv73vv73vv71zfl7IhD/vv73Uo0lhCzjvv73vv73vv73vv70c77+9Gcup77+9Ce+/vV1dVcaGO++/ve+/vWTvv73qsJHvv70K77+977+977+9Ne+/vdCC77+9IEAj77+9ByhSUyo9Be+/vXBw77+9EO+/vT7vv70yOl7vv70g77+977+9cu+/vX1p3JPvv71bG1Hvv73vv71e77+977+977+977+9VO+/ve+/vSbJgu+/vQU377+977+9C++/vW/vv73vv71y77+9G2jvv70SWAEe77+9HWHvv70jYwrvv73vv70277+9cO+/vWPvv73vv71V77+9LGXvv73vv70Qdu+/vdubTBBT77+9NmLvv73vv70ZEHzvv73vv70k77+977+977+9SV0A77+977+9NO+/ve+/vUB077+977+9YAJ73YYn77+977+9xoLvv73vv70dDu+/vX0K77+9G++/vQR6A0wu77+9MnAnZe+/vXhaCNie77+9Iu+/vVEZCmbvv71qZO+/vUQAUUrUnu+/vVRU2Is777+9de+/vQpn77+9Ve+/ve+/vUhfZWHvv71r77+9Pe+/ve+/ve+/ve+/vSJ677+9SlEUYBoP77+977+98J6so1U477+9KjTvv71GHkAWQu+/ve+/vWwuPd6EeVnvv71z77+9cRnvv73vv73vv70mz4Ut77+977+977+9Zu+/vRkK77+9AnHvv70a77+9JO+/ve+/vXHvv70LCu+/vRoZ77+9LhXvv73vv71gWXtZFu+/vVLvv73vv73vv70R77+946mVAu+/ve+/vWfvv70q77+977+9Au+/vRTvv71ARO+/ve+/vUTvv73vv71uJHfvv70bBe+/vSDvv73vv73vv70q77+9K++/vToI77+9Pu+/vSRCcDDvv73vv73vv71pcO+/vRJPKVrvv73vv71877+9c0pOJe+/vWLvv73vv70+77+9Zu+/vUso77+9LO+/ve+/ve+/ve+/vQZeOe+/ve+/ve+/vVfvv73vv73vv73vv71m77+9RDdH77+9BELvv73vv73vv73vv73vv73vv73Lru+/vQAhNu+/vQh477+9Y2BiAO+/ve+/vQYMHxjvv70BFgYGRiYGJgZm77+977+977+9yoIMQwBd77+9BO+/vQAAAAADAAgAAgAMAAHvv73vv70AA3jvv71jYGRgYO+/vQFiMSBmYmAEQmYgZgHvv70YAAPvv70AMgAAAAEAAAAA77+9GBYRAAAAAO+/vQce77+9AAAAANWXbu+/vQ==')
+}
+
+canvas {
+    position: relative;
+    z-index: 1
+}
+
+.rciframe_hidden,
+.sys-msg-root-hidden {
+    display: none
+}
+
+.rciframe_visible,
+.sys-msg-root-visible,
+.sys-msg-root-visible * {
+    margin: 0;
+    padding: 0
+}
+
+.rciframe_visible,
+.sys-msg-root-visible {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.rciframe_visible {
+    border: 0;
+    background: transparent
+}
+
+.sys-msg-scale-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 567px;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0
+}
+
+.sys-msg {
+    position: absolute;
+    top: 136px;
+    left: 50%;
+    background: rgba(0, 0, 0, .8);
+    height: 290px;
+    width: 732px;
+    border: 2px solid #868884;
+    border-radius: 49px;
+    margin-left: -366px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    visibility: hidden
+}
+
+.sys-msg:last-child {
+    visibility: visible
+}
+
+.sys-msg * {
+    font-family: Tahoma, sans-serif;
+    font-style: normal
+}
+
+.sys-msg-title,
+.sys-msg-text {
+    font-weight: bold;
+    width: 681px;
+    margin: 0 auto;
+    color: #fff;
+    cursor: default
+}
+
+.sys-msg-title {
+    font-size: 24px;
+    padding-top: 30px
+}
+
+.sys-msg-text,
+.sys-msg-text * {
+    border: 0;
+    border-collapse: collapse;
+    vertical-align: middle
+}
+
+.sys-msg-text {
+    font-size: 19px;
+    height: 190px
+}
+
+.sys-msg-buttons {
+    position: absolute;
+    bottom: 36px;
+    left: 0;
+    right: 0
+}
+
+.sys-msg-button {
+    display: inline-block;
+    height: 40px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+    font-size: 21px;
+    text-decoration: none;
+    width: 83px;
+    line-height: 40px;
+    margin: 0 9.5px;
+    padding: 0 48px;
+    color: #c8c8c8;
+    border: 2px solid #868884;
+    border-radius: 20px;
+    cursor: pointer
+}
+
+#Desktop .sys-msg-button:hover {
+    color: #60b600
+}
+
+.sys-msg-button.active {
+    color: #60b600;
+    border-color: #508117
+}
+
+.MiniMode #UseGoogleChrome .sys-msg-text,
+.MiniMode #UseSafari .sys-msg-text {
+    height: 146px
+}
+
+.MiniMode #UseGoogleChrome .sys-msg-text td,
+.MiniMode #UseSafari .sys-msg-text td {
+    padding-bottom: 63px;
+    background: 50% 75% no-repeat;
+    background-size: auto 50px
+}
+
+.MiniMode #Regulation .sys-msg-title {
+    display: none
+}
+
+.MiniMode #Regulation .sys-msg-text {
+    height: 210px
+}
+
+.MiniMode #Regulation .sys-msg-button {
+    width: auto;
+    padding: 0 10px
+}
+
+.MiniMode #ClientRegulation .sys-msg-title {
+    display: none
+}
+
+.MiniMode #ClientRegulation .sys-msg-text {
+    height: 210px
+}
+
+.MiniMode #ClientRegulation .sys-msg-button {
+    width: auto;
+    padding: 0 10px
+}
+
+.MiniMode #SysMsgRoot_de .sys-msg-button {
+    width: 120px
+}
+
+.MiniMode #SysMsgRoot_ru .sys-msg-button {
+    width: 100px
+}
+
+.history-visible,
+.history-visible body,
+.replay-visible,
+.replay-visible body {
+    position: fixed !important;
+    background: #000 !important
+}
+
+.history-visible,
+.history-visible body,
+.history-root,
+.replay-visible,
+.replay-visible body,
+.replay-root {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none
+}
+
+.history-visible body * {
+    opacity: 0
+}
+
+.history-visible .history-root,
+.history-visible .history-frame,
+.history-visible .history-button,
+.replay-visible .replay-root,
+.replay-visible .replay-frame {
+    position: fixed;
+    opacity: 1
+}
+
+.replay-visible .replay-root {
+    z-index: 50
+}
+
+.fullscreen-visible.replay-visible .replay-root {
+    display: none
+}
+
+.history-root,
+.history-frame {
+    width: 600px;
+    height: 650px
+}
+
+.history-root {
+    top: 50%;
+    left: 50%;
+    margin: -325px 0 0 -300px;
+    z-index: 300
+}
+
+.history-frame {
+    top: 0;
+    left: 0
+}
+
+.history-button {
+    width: 60px;
+    height: 60px;
+    border: 6px solid #fff;
+    border-radius: 60px;
+    z-index: 301;
+    background: #000 center no-repeat;
+    background-size: 50% auto;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA7CAMAAAAdOWm/AAAAqFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8j1z1tAAAAN3RSTlMACfoF6BVR/MXeYpk1t4Q+KCa5Zdie98eWg+w58ywiELOsgHAdF+KnMM3BkWpOSFxT1IgMinmNQjJMLwAAAqNJREFUSMell+uWqjAMhYWClRHFKyqiiKhcB8fb8P5vdsKIVm0ka3nyz9Bv7bLTJtj47/A2+nbboIPpW3Z6TGyt4fp8DPIlqwd1c58FQXOh3zP9zI81dWcMupZSp7gYjieH3S4Z73tVarluqUUZrhZ+v2dZdIw1WMULJ7lcWS8Y8eIa3F4137JWuiuqUCdBaQybD+ziHurgB2cVs609LPMtsOWUQYpmrenTsl3ggbtnt3hmkT0rc9B8WtXegEltu3hhZa/MscafFvEQjNqkFSrSr16x+25FhH0o89oRCVSXmWOJtKewYeUnLiS286iLaBZGBseR9VMXZeWqiHBX879neUfkZJ/BWy49ngz163HaJ8U7XQak/MxYL28XYjjBdTGHIEbdPmvc2RbKMswhbswWjxfxC9PtXDBNo9Ks1eU7B9vtTVPoAkuHanThBH7EHro91viEhaqUmp+wUE/W+IgdzVBNmoV69iWCqK9wCIfw+oqwpaoguomKv2efkdMndbCyrKIGFUoUomjSVCh0PoUej8oSrOi3+N3HQ/Q+kqWnA83SmjQ7F5oEi07Bj1ggOQHicxDtfaqKsTB/aYeMFXKP+Iuu1cb6bXf+1SLeFxxy8H6rE6yYSHK/1YcoW81ftjgjDt26Capr+xb7exiMeM1EQlnnd8nKsvgc0ezV9joelyXyMkN2CLpJfa9zZlv4gjnach9aUL2Oj5fIdxM31qLfvp3dfg9Upzbd+4BFVL2LQ0xBbM/uUQeHv2NeM7Nxr9R4X67atDVpZlO6Wnq1w+pULHcPazF5Zd2Bq1bkOK9O4nc4cuF0qdoqqJsrerM9clwAW9Pcu9+5ob9KWuEsr/+/coqyX98P072piKQXmc082ijERGJKz4zMxUuLgZ8lR4dY9Q98wGrNAUdfigAAAABJRU5ErkJggg==')
+}
+
+#Desktop .history-button {
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 24px -36px
+}
+
+@media all and (orientation:portrait) {
+    #Mobile .history-button {
+        bottom: 0;
+        left: 50%;
+        margin: 0 0 24px -36px
+    }
+}
+
+@media all and (orientation:landscape) {
+    #Mobile .history-button {
+        top: 50%;
+        right: 0;
+        margin: -36px 24px 0 0
+    }
+}
+
+.StandardMode .sys-msg,
+.StandardMode .sys-msg-text,
+.sys-msg.custom,
+.sys-msg.custom .sys-msg-text {
+    height: auto
+}
+
+.sys-msg.custom {
+    padding: 0 0 36px
+}
+
+.MiniMode .sys-msg.custom.no-title .sys-msg-title {
+    display: none
+}
+
+.sys-msg.custom .sys-msg-text td {
+    padding: 8px 0 4px
+}
+
+.sys-msg.custom.no-title .sys-msg-text td {
+    padding: 31px 0 4px
+}
+
+.StandardMode .sys-msg-buttons,
+.sys-msg.custom .sys-msg-buttons {
+    position: static
+}
+
+.sys-msg.custom .sys-msg-button {
+    width: auto;
+    padding: 0 12.5px;
+    margin: 9.5px 9.5px 0
+}
+
+#Mobile.StandardMode .sys-msg,
+#Mobile.StandardMode .sys-msg-title,
+#Mobile.StandardMode .sys-msg-text {
+    width: 335px
+}
+
+#Mobile.StandardMode .sys-msg {
+    background: rgba(0, 0, 0, .95);
+    border: 0;
+    border-radius: 0;
+    padding: 0 15px 15px;
+    box-shadow: none;
+    top: 68px;
+    margin-left: -182.5px
+}
+
+#Mobile.StandardMode .sys-msg-title,
+#Mobile.StandardMode .sys-msg-text {
+    font-size: 21px
+}
+
+#Mobile.StandardMode .sys-msg-title {
+    padding: 13.5px 0
+}
+
+#Mobile.StandardMode .sys-msg-text {
+    border: solid #fff;
+    border-width: 1.2px 0;
+    min-height: 246px;
+    font-weight: normal
+}
+
+#Mobile.StandardMode .sys-msg-text td {
+    padding: 18px 0
+}
+
+#Mobile.StandardMode .sys-msg-button {
+    border: 1.2px solid #94da38;
+    border-radius: 4.5px;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 31px;
+    height: 31px;
+    background: #000;
+    color: #fff;
+    width: auto;
+    padding: 0 8px;
+    margin: 13px 9.5px 0;
+    min-width: 78px
+}
+
+@media all and (orientation:portrait) {
+    #Mobile.StandardMode .sys-msg {
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        margin-top: -56px
+    }
+}
+
+#Desktop.StandardMode .sys-msg,
+#Desktop.StandardMode .sys-msg-title,
+#Desktop.StandardMode .sys-msg-text {
+    width: 909px
+}
+
+#Desktop.StandardMode .sys-msg {
+    background: rgba(0, 0, 0, .95);
+    border: 0;
+    border-radius: 0;
+    padding: 0 30px 24px;
+    box-shadow: none;
+    margin-top: -17px;
+    margin-left: -484.5px
+}
+
+#Desktop.StandardMode .sys-msg-title,
+#Desktop.StandardMode .sys-msg-text {
+    font-size: 37.2px
+}
+
+#Desktop.StandardMode .sys-msg-title {
+    padding: 26.7px 0
+}
+
+#Desktop.StandardMode .sys-msg-text {
+    border: solid #fff;
+    border-width: 1.2px 0;
+    min-height: 353px;
+    font-weight: normal
+}
+
+#Desktop.StandardMode .sys-msg-text td {
+    padding: 18px 0
+}
+
+#Desktop.StandardMode .sys-msg-buttons {
+    min-height: 79.375px
+}
+
+#Desktop.StandardMode .sys-msg-button {
+    border: 1.2px solid #94da38;
+    border-radius: 7.5px;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 53px;
+    height: 53px;
+    background: #000;
+    color: #fff;
+    width: auto;
+    padding: 0 12px;
+    margin: 24px 12px 0;
+    min-width: 142px
+}
+
+#Desktop.StandardMode .BtCLOSE {
+    display: none
+}

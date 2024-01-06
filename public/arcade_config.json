@@ -1,0 +1,14 @@
+{
+
+"port":"12087/arcade",
+
+"host":"localhost",
+"prefix":"http://",
+
+"host_ws":"localhost",
+"prefix_ws":"ws://",
+
+"ssl":false,
+"timezone":"Europe/Berlin"
+
+}

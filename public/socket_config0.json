@@ -1,0 +1,13 @@
+{
+
+"port":"12087/ka_fish",
+
+"host":"localhost",
+"prefix":"http://",
+
+"host_ws":"localhost",
+"prefix_ws":"ws://",
+
+"ssl":false
+
+}
