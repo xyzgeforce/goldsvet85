@@ -19,7 +19,7 @@
     <li>Import the SQL file located in the <code>/addons/db.sql</code> directory.</li>
     <li>Ensure SSL is enforced for the domain.</li>
     <li>Generate SSL CRT, KEY, and BUNDLE. Copy the contents of your CRT/KEY/BUNDLE to files in the
-        <code>CASINO/PTWEBSOCKET/SSL/</code> folder. Create a new email and password.</li>
+        <code>PTWEBSOCKET/SSL/</code> folder. Create a new email and password.</li>
     <li>Create a new database, grant all access, and import the SQL file located in the <code>/addons/db.sql</code>
         folder using PHPMYADMIN.</li>
     <li>For file uploads:
@@ -48,14 +48,14 @@
             <li>Private Key (KEY) --> key.key</li>
         </ul>
     </li>
-    <li>Go to the folder <code>casino/PTWebSocket/ssl</code> and replace those three files.</li>
-    <li>Edit <code>casino/.env</code> and <code>casino/config/app.php</code> (URL line 65) for domain, database,
+    <li>Go to the folder <code>PTWebSocket/ssl</code> and replace those three files.</li>
+    <li>Edit <code>.env</code> and <code>/config/app.php</code> (URL line 65) for domain, database,
         user/password, email, and password.</li>
 </ul>
 
 <h2>File Edits</h2>
 
-<p dir="auto">Edit <code>casino/public/</code> Socket File Changes in *json files.</p>
+<p dir="auto">Edit <code>/public/</code> Socket File Changes in *json files.</p>
 
 <h2>Games Downloads</h2>
 
