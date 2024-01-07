@@ -3,14 +3,15 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/zeusbyte/goldsvet85/main/slot.png" alt="Alt Text" width="50%">
 </p>
-<p align="center"><a href="https://casinoplay.win" title="DEMO HERE">>>> DEMO SITE HERE <<<</a></p>
+<p align="center"><a href="https://casinoplay.win" title="DEMO HERE"><strong>DEMO SITE HERE</strong></a></p>
 
 <ul>
     <li>Set up your server with the following components:
         <ul>
+            <li>OS Almalinux 8 / CentOS 7 recommended</li>
             <li>Apache</li>
             <li>MySQL</li>
-            <li>PHP 7.4</li>
+            <li>PHP 7.3-7.4</li>
             <li>Laravel 8</li>
             <li>Node.js 16</li>
             <li>PM2</li>
@@ -63,6 +64,7 @@
 <h2>Games Downloads</h2>
 
 <p>Currently, there are approximately 1000 games totaling 40 GB.</p>
+<p>Files uploaded soon.. or join our group to get it fast.</p>
 
 <h2>PM2 Commands</h2>
 
@@ -101,4 +103,5 @@
 <h2>Have a Problem or Question?</h2>
 
 <p dir="auto"><a href="https://t.me/TWFtYWggYWt1IHRha3V0IPCfpK" rel="nofollow">📧Telegram</a></p>
+<p dir="auto"><a href="https://t.me/goldsvetcasino1" rel="nofollow">🌐Telegram Group</a></p>
 <p dir="auto">&nbsp;</p>
