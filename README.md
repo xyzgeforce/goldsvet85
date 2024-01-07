@@ -1,5 +1,5 @@
 <h1>Aapanel/Cpanel/Plesk Casino Server Configuration Guide</h1>
-![slot](https://github.com/zeusbyte/goldsvet85/assets/139279978/ac65214e-5a35-4169-a077-e40daf8b9313)
+![slot](https://github.com/zeusbyte/goldsvet85/assets/139279978/f3bf5699-7cec-4545-b087-d697481a7c0e)
 <h2>Server Configuration Steps</h2>
 
 <ul>
