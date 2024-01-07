@@ -1,6 +1,6 @@
 <h1>Aapanel/Cpanel/Plesk Casino Server Configuration Guide</h1>
 
-<img src="https://raw.githubusercontent.com/zeusbyte/goldsvet85/main/slot.png" alt="Alt Text">
+<img src="https://raw.githubusercontent.com/zeusbyte/goldsvet85/main/slot.png" alt="Alt Text" width="50%">
 
 <ul>
     <li>Set up your server with the following components:
