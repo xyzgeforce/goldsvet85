@@ -1,5 +1,5 @@
 <h1>Aapanel/Cpanel/Plesk Casino Server Configuration Guide</h1>
-![slot](https://github.com/zeusbyte/goldsvet85/assets/139279978/f3bf5699-7cec-4545-b087-d697481a7c0e)
+![Alt Text]([url_gambar](https://github-production-user-asset-6210df.s3.amazonaws.com/139279978/294750289-f3bf5699-7cec-4545-b087-d697481a7c0e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240107T095839Z&X-Amz-Expires=300&X-Amz-Signature=ed6b9bbd391aa0f5097d47164f9f6bee66b0c56503dbd7f200f56c6943267448&X-Amz-SignedHeaders=host&actor_id=139279978&key_id=0&repo_id=734174632))
 <h2>Server Configuration Steps</h2>
 
 <ul>
