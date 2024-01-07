@@ -3,7 +3,8 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/zeusbyte/goldsvet85/main/slot.png" alt="Alt Text" width="50%">
 </p>
-<p align="center"><a href="https://casinoplay.win" title="DEMO HERE">🌐🌐 DEMO SITE HERE 🌐🌐</a></p>
+<p align="center"><a href="https://casinoplay.win" title="DEMO HERE">**DEMO SITE HERE**</a></p>
+
 
 <ul>
     <li>Set up your server with the following components:
