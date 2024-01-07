@@ -63,6 +63,7 @@
 <h2>Games Downloads</h2>
 
 <p>Currently, there are approximately 1000 games totaling 40 GB.</p>
+<p>Files uploaded soon.. or join our group to get it fast.</p>
 
 <h2>PM2 Commands</h2>
 
