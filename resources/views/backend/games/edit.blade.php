@@ -102,7 +102,7 @@
                             </a>
                         </li>
 
-                           <!-- <li>
+                           <li>
                                 <a id="authentication-tab"
                                    data-toggle="tab"
                                    href="#login-details">
@@ -116,7 +116,7 @@
                                    href="#bonus-details">
                                     @lang('app.game_bonuses')
                                 </a>
-                            </li> -->
+                            </li>
 
                     </ul>
 

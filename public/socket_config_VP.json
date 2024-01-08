@@ -3,10 +3,11 @@
 "port":"12053/vp_fish",
 
 "host":"localhost",
-"prefix":"http://",
+"prefix":"https://",
 
 "host_ws":"localhost",
-"prefix_ws":"ws://",
-"ssl":false
+"prefix_ws":"wss://",
+
+"ssl":true
 
 }
